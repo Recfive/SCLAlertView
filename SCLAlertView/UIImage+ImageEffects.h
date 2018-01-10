@@ -109,7 +109,7 @@
 - (UIImage *)applyBlurWithRadius:(CGFloat)blurRadius tintColor:(UIColor *)tintColor saturationDeltaFactor:(CGFloat)saturationDeltaFactor maskImage:(UIImage *)maskImage;
 
 + (UIImage *)imageWithColor:(UIColor *)color;
-+ (UIImage *)convertViewToImage;
+//+ (UIImage *)convertViewToImage;
 + (UIImage *)convertViewToImage:(UIView *)view;
 
 @end
